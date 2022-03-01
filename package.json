@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SoForst/stikerinbot.git"
+    "url": "git+https://github.com/ariffb25/stikerinbot.git"
   },
   "keywords": [
     "whatsapp-bot"
@@ -22,7 +22,7 @@
   "author": "Nasuki",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SoForst/stikerinbot/issues"
+    "url": "https://github.com/ariffb25/stikerinbot/issues"
   },
   "homepage": "https://github.com/ariffb25/stikerinbot",
   "dependencies": {
