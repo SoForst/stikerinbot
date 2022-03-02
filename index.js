@@ -15,7 +15,7 @@ CFonts.say(`'${package.name}' Oleh @${package.author.name || package.author}`, {
   align: 'center',
 })
 
-var isRunning = false
+var isRunning = true
 /**
  * Start a js file
  * @param {String} file `path/to/file`
@@ -46,7 +46,7 @@ function start(file) {
     }
   })
   p.on('exit', code => {
-    isRunning = false
+    isRunning = true
     console.error('Exited with code:', code)
     if (code === 0) return
     fs.watchFile(args[0], () => {
